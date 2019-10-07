@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-sopo",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "main": "index.js",
     "repository": "git@github.com:honpery/sopo-eslint.git",
     "author": "sopo",
@@ -8,9 +8,6 @@
     "scripts": {
         "pub": "yarn publish",
         "ncu": "ncu -u && yarn"
-    },
-    "publishConfig": {
-        "registry": "https://registry.npmjs.org/"
     },
     "dependencies": {
         "@typescript-eslint/eslint-plugin": "^2.3.2",
