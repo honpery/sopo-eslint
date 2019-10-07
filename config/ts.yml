@@ -1,0 +1,32 @@
+---
+  globals: {}
+
+  extends:
+    - ./base.yml
+    - plugin:@typescript-eslint/recommended
+    - prettier/@typescript-eslint
+
+  parser: "@typescript-eslint/parser"
+
+  plugins:
+    - "@typescript-eslint"
+
+  parserOptions:
+    ecmaVersion: 2018
+    sourceType: module
+
+  rules:
+    "@typescript-eslint/camelcase": 0
+    "@typescript-eslint/indent":
+      - 2
+      - 2
+    "@typescript-eslint/explicit-member-accessibility": 0
+    "@typescript-eslint/explicit-function-return-type": 0
+    "@typescript-eslint/no-explicit-any": 0
+    "@typescript-eslint/no-empty-interface":
+      - 2
+      - allowSingleExtends: true
+    prettier/prettier:
+      - 2
+      - singleQuote: true
+        parser: typescript

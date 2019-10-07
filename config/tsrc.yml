@@ -1,0 +1,10 @@
+---
+  extends:
+    - ./react.yml
+    - ./ts.yml
+
+  rules: {}
+
+  settings:
+    react:
+      version: 'detect'
