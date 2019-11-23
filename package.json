@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-sopo",
-    "version": "0.0.6",
+    "version": "0.0.10",
     "main": "index.js",
     "repository": "git@github.com:honpery/sopo-eslint.git",
     "author": "sopo",
@@ -10,22 +10,22 @@
         "ncu": "ncu -u && yarn"
     },
     "dependencies": {
-        "@typescript-eslint/eslint-plugin": "^2.3.2",
-        "@typescript-eslint/parser": "^2.3.2",
+        "@typescript-eslint/eslint-plugin": "^2.8.0",
+        "@typescript-eslint/parser": "^2.8.0",
         "babel-eslint": "^10.0.3",
-        "eslint": "^6.5.1",
+        "eslint": "^6.7.0",
         "eslint-config-airbnb": "^18.0.1",
-        "eslint-config-prettier": "^6.4.0",
-        "eslint-import-resolver-typescript": "^1.1.1",
+        "eslint-config-prettier": "^6.7.0",
+        "eslint-import-resolver-typescript": "^2.0.0",
         "eslint-plugin-html": "^6.0.0",
         "eslint-plugin-import": "^2.18.2",
         "eslint-plugin-jsx-a11y": "^6.2.3",
         "eslint-plugin-prettier": "^3.1.1",
         "eslint-plugin-react": "^7.16.0",
-        "prettier": "^1.18.2",
-        "typescript": "^3.6.3"
+        "prettier": "^1.19.1",
+        "typescript": "^3.7.2"
     },
     "devDependencies": {
-        "npm-check-updates": "^3.1.24"
+        "npm-check-updates": "^3.2.1"
     }
 }
