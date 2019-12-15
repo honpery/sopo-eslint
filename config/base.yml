@@ -31,6 +31,7 @@
     indent:
       - 2
       - 2
+      - SwitchCase: 1
     camelcase: 0
     import/no-unresolved: 0
     import/prefer-default-export: 0
@@ -38,8 +39,6 @@
     quotes:
       - 2
       - single
-      - avoidEscape: true
-        allowTemplateLiterals: false
     semi:
       - 2
       - always
@@ -57,9 +56,5 @@
     object-property-newline:
       - 2
       - allowAllPropertiesOnSameLine: true
-    max-len:
+    consistent-return:
       - 0
-      - code: 300
-        ignoreUrls: true
-        ignoreStrings: true
-    multiline-ternary: 0

@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["./config/base.yml"]
+    extends: ["./config/tsrc.yml"]
 };
