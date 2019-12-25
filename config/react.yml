@@ -1,7 +1,7 @@
 ---
   extends:
     - plugin:react/recommended
-    - "./index.yml"
+    - "./base.yml"
     
   rules:
     react/jsx-one-expression-per-line: 0

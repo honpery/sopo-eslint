@@ -2,7 +2,7 @@
   globals: {}
 
   extends:
-    - "./index.yml"
+    - "./base.yml"
     - plugin:@typescript-eslint/recommended
     - prettier/@typescript-eslint
 
