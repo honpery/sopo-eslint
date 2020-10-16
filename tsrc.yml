@@ -3,7 +3,7 @@
     - "./react.yml"
     - "./ts.yml"
 
-  rules: 
+  rules:
     react/jsx-filename-extension:
       - 2
       - extensions:

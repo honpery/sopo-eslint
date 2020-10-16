@@ -1,3 +1,4 @@
 module.exports = {
-    extends: ["./config/tsrc.yml"]
-};
+    extends: ['./index.yml'],
+  };
+  
