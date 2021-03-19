@@ -1,0 +1,61 @@
+---
+  globals: {}
+
+  env:
+    browser: true
+    es6: true
+    node: true
+    jquery: true
+    commonjs: true
+
+  extends:
+    - airbnb
+    - prettier
+
+  plugins:
+    - prettier
+    - import
+
+  parser: babel-eslint
+
+  parserOptions:
+    ecmaVersion: 2019
+    sourceType: module
+    ecmaFeatures:
+      jsx: true
+      modules: true
+
+  rules:
+    no-empty-label: 0
+    no-param-reassign: 0
+    indent:
+      - 2
+      - 2
+      - SwitchCase: 1
+    camelcase: 0
+    import/no-unresolved: 0
+    import/prefer-default-export: 0
+    import/no-extraneous-dependencies: 0
+    import/extensions: 0
+    quotes:
+      - 2
+      - single
+    semi:
+      - 2
+      - always
+    comma-dangle:
+      - 2
+      - arrays: always-multiline
+        objects: always-multiline
+        imports: always-multiline
+        exports: always-multiline
+        functions: ignore
+    prettier/prettier:
+      - 2
+      - singleQuote: true
+        trailingComma: all
+    object-property-newline:
+      - 2
+      - allowAllPropertiesOnSameLine: true
+    consistent-return:
+      - 0

@@ -1,4 +1,3 @@
 module.exports = {
-    extends: ['./index.yml'],
-  };
-  
+  extends: ['./index.yml'],
+};
