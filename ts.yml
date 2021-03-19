@@ -4,7 +4,6 @@
   extends:
     - "./index.yml"
     - plugin:@typescript-eslint/recommended
-    - prettier/@typescript-eslint
 
   parser: "@typescript-eslint/parser"
 
